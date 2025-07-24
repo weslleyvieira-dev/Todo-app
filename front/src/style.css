@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("/fonts/JosefinSans-VariableFont_wght.ttf") format("truetype");
+}
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+:root {
+  --bg-primary: hsl(0, 0%, 98%);
+  --bg-secundary: white;
+  --text-primary: hsl(235, 19%, 35%);
+  --text-primary-hover: hsl(235, 19%, 35%);
+  --text-secundary: hsl(236, 9%, 61%);
+  --text-terciary: hsl(233, 11%, 84%);
+  --text-terciary-alt: hsl(236, 32%, 92%);
+  --text-filter: hsl(235, 9%, 61%);
+  --text-blue: hsl(220, 98%, 61%);
+  --check-bg-gradient: linear-gradient(
+    135deg,
+    hsl(192, 100%, 67%),
+    hsl(280, 87%, 65%)
+  );
+  --shadow-color: rgba(194, 195, 214, 0.5);
+}
+
+[data-theme="dark"] {
+  --bg-primary: hsl(235, 21%, 11%);
+  --bg-secundary: hsl(235, 24%, 19%);
+  --text-primary: hsl(234, 39%, 85%);
+  --text-primary-hover: hsl(236, 33%, 92%);
+  --text-secundary: hsl(234, 11%, 52%);
+  --text-terciary: hsl(233, 14%, 35%);
+  --text-terciary-alt: hsl(237, 14%, 26%);
+  --text-filter: hsl(235, 16%, 42%);
+  --shadow-color: rgba(0, 0, 0, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100dvh;
+  width: 100dvw;
+  overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+  html,
+  body {
+    height: 100dvh;
+    width: 100dvw;
+    overflow: visible;
+  }
+}
