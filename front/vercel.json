@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": ""
+      "destination": "https://wellsz-todo-app-back.vercel.app/api/$1"
     }
   ]
 }

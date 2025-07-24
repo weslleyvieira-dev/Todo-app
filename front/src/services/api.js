@@ -1,7 +1,9 @@
 import axios from "axios";
 
 const API_BASE_URL =
-  process.env.NODE_ENV === "production" ? "" : "http://localhost:3001/api";
+  process.env.NODE_ENV === "production"
+    ? "https://wellsz-todo-app-back.vercel.app/api"
+    : "http://localhost:3001/api";
 
 const api = axios.create({
   baseURL: API_BASE_URL,
