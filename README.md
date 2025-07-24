@@ -23,10 +23,10 @@ PC | Mobile
 [![Screenshot - PC](</screenshots/PC (Thumb).png>)](/screenshots/PC.png)
 [![Screenshot - Mobile](</screenshots/Mobile (Thumb).png>)](/screenshots/Mobile.png)
 
-<!-- ### Links
+### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+- Solution URL: [GitHub](https://github.com/weslleyvieira-dev/Todo-app)
+- Live Site URL: [Vercel](https://wellsz-todo-app-front.vercel.app/)
 
 ### Built with
 
